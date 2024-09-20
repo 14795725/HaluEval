@@ -6,8 +6,8 @@ import argparse
 import tiktoken
 
 
-openai.api_key = 'sk-'
-
+openai.api_key = 'sk123124-'
+#TESTTESTTISDFSDNMF
 def get_qa_response(model, question, answer, instruction):
     message = [
         {"role": "system", "content":"You are a huallucination detector. You MUST determine if the provided answer contains hallucination or not for the question based on the world knowledge. The answer you provided MUST be \"Yes\" or \"No\""},
