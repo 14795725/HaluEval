@@ -6,7 +6,7 @@ import argparse
 import tiktoken
 
 
-openai.api_key = 'sk123124-'
+openai.api_key = 'sk12311232124-'
 #TESTTESTTISDFSDNMF
 def get_qa_response(model, question, answer, instruction):
     message = [
